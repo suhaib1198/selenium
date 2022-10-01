@@ -41,7 +41,6 @@ public class TestPassword {
 	String us=prop.getProperty("user");
 	String pass= prop.getProperty("password");
 	l.login(us, pass);	
-	Assert.assertEquals(us,"useres");
 	}
 	@AfterSuite
 	public void after() {
