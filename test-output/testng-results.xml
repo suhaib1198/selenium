@@ -1,33 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-09-24T15:21:02 IDT" name="Default suite" finished-at="2022-09-24T15:22:26 IDT" duration-ms="84596">
+  <suite started-at="2022-10-01T11:33:08 IDT" name="Default suite" finished-at="2022-10-01T11:33:18 IDT" duration-ms="10276">
     <groups>
     </groups>
-    <test started-at="2022-09-24T15:21:02 IDT" name="Default test" finished-at="2022-09-24T15:22:26 IDT" duration-ms="84596">
-      <class name="testLoginTrello">
-        <test-method is-config="true" signature="before()[pri:0, instance:testLoginTrello@6bd61f98]" started-at="2022-09-24T15:20:59 IDT" name="before" finished-at="2022-09-24T15:21:01 IDT" duration-ms="2663" status="PASS">
+    <test started-at="2022-10-01T11:33:08 IDT" name="Default test" finished-at="2022-10-01T11:33:18 IDT" duration-ms="10276">
+      <class name="TestPassword">
+        <test-method is-config="true" signature="before()[pri:0, instance:TestPassword@600b9d27]" started-at="2022-10-01T11:33:03 IDT" name="before" finished-at="2022-10-01T11:33:08 IDT" duration-ms="4817" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="login()[pri:0, instance:testLoginTrello@6bd61f98]" started-at="2022-09-24T15:21:02 IDT" name="login" finished-at="2022-09-24T15:21:10 IDT" duration-ms="8245" status="PASS">
+        <test-method signature="login()[pri:0, instance:TestPassword@600b9d27]" started-at="2022-10-01T11:33:08 IDT" name="login" finished-at="2022-10-01T11:33:18 IDT" duration-ms="10023" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method signature="click()[pri:0, instance:testLoginTrello@6bd61f98]" started-at="2022-09-24T15:21:10 IDT" name="click" finished-at="2022-09-24T15:21:35 IDT" depends-on-methods="testLoginTrello.login" duration-ms="25505" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- click -->
-        <test-method signature="addtest()[pri:0, instance:testLoginTrello@6bd61f98]" started-at="2022-09-24T15:21:35 IDT" name="addtest" finished-at="2022-09-24T15:22:26 IDT" depends-on-methods="testLoginTrello.click" duration-ms="50808" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addtest -->
-        <test-method is-config="true" signature="after()[pri:0, instance:testLoginTrello@6bd61f98]" started-at="2022-09-24T15:22:26 IDT" name="after" finished-at="2022-09-24T15:22:26 IDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="after()[pri:0, instance:TestPassword@600b9d27]" started-at="2022-10-01T11:33:18 IDT" name="after" finished-at="2022-10-01T11:33:20 IDT" duration-ms="1743" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
-      </class> <!-- testLoginTrello -->
+      </class> <!-- TestPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
