@@ -24,7 +24,7 @@ public class TestPassword {
 	driver.get("https://trello.com/login");
 	driver.manage().window().maximize();
 	l=new LogTrello(driver);
-    file =new FileReader("./files/user.proparoties");
+    file =new FileReader("user.proparoties");
 	prop=new Properties();
 	
 	}
