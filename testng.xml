@@ -1,0 +1,16 @@
+<suite name="TestNG selenium Suite">
+
+   
+   
+   
+   
+   <test name="trello">
+   
+  
+      <classes>
+     
+         <class name="testLoginTrello" />
+        
+      </classes>
+   </test>
+</suite>
