@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-01T11:33:08 IDT" name="Default suite" finished-at="2022-10-01T11:33:18 IDT" duration-ms="10276">
+  <suite started-at="2022-10-01T14:40:35 IDT" name="Default suite" finished-at="2022-10-01T14:40:43 IDT" duration-ms="8562">
     <groups>
     </groups>
-    <test started-at="2022-10-01T11:33:08 IDT" name="Default test" finished-at="2022-10-01T11:33:18 IDT" duration-ms="10276">
+    <test started-at="2022-10-01T14:40:35 IDT" name="Default test" finished-at="2022-10-01T14:40:43 IDT" duration-ms="8562">
       <class name="TestPassword">
-        <test-method is-config="true" signature="before()[pri:0, instance:TestPassword@600b9d27]" started-at="2022-10-01T11:33:03 IDT" name="before" finished-at="2022-10-01T11:33:08 IDT" duration-ms="4817" status="PASS">
+        <test-method is-config="true" signature="before()[pri:0, instance:TestPassword@3688eb5b]" started-at="2022-10-01T14:40:32 IDT" name="before" finished-at="2022-10-01T14:40:35 IDT" duration-ms="2569" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- before -->
-        <test-method signature="login()[pri:0, instance:TestPassword@600b9d27]" started-at="2022-10-01T11:33:08 IDT" name="login" finished-at="2022-10-01T11:33:18 IDT" duration-ms="10023" status="PASS">
+        <test-method signature="login()[pri:0, instance:TestPassword@3688eb5b]" started-at="2022-10-01T14:40:35 IDT" name="login" finished-at="2022-10-01T14:40:43 IDT" duration-ms="8483" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login -->
-        <test-method is-config="true" signature="after()[pri:0, instance:TestPassword@600b9d27]" started-at="2022-10-01T11:33:18 IDT" name="after" finished-at="2022-10-01T11:33:20 IDT" duration-ms="1743" status="PASS">
+        <test-method signature="test22()[pri:0, instance:TestPassword@3688eb5b]" started-at="2022-10-01T14:40:43 IDT" name="test22" finished-at="2022-10-01T14:40:43 IDT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test22 -->
+        <test-method is-config="true" signature="after()[pri:0, instance:TestPassword@3688eb5b]" started-at="2022-10-01T14:40:43 IDT" name="after" finished-at="2022-10-01T14:40:44 IDT" duration-ms="941" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- after -->
